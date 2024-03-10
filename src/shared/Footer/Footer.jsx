@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <Container>
-        <div>
+        <div className='grid grid-cols-4'>
           {/* first part  */}
           <div>
             <img src={footerLogo} alt="" />
@@ -19,22 +19,22 @@ const Footer = () => {
             <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>Trademarks</Link>
           </div>
           {/* third part  */}
-          <div>
+          <div className='grid grid-rows-1'>
             <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Sitemap</p>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>So Home</Link>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>What is Dogecoin?</Link>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>Much Wallets</Link>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>Very Community</Link>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>So Dogepedia</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>So Home</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>What is Dogecoin?</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Much Wallets</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Very Community</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>So Dogepedia</Link>
           </div>
           {/* end part */}
-          <div>
+          <div className='grid grid-rows-1'>
             <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Foundation</p>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>About</Link>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>Manifesto</Link>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>Advisors</Link>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>Blog</Link>
-            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>Trailmap</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>About</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Manifesto</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Advisors</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Blog</Link>
+            <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Trailmap</Link>
           </div>
         </div>
       </Container>
