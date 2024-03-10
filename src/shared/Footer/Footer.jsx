@@ -1,5 +1,6 @@
 import Container from '@/components/Sections/Container/Container';
 import footerLogo from '@/assets/banner/dogecoin-logo 1.png'
+import footerLine from '@/assets/footer/Line 11.png'
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -49,9 +50,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='bg-[#7B686C] mt-[60px]'><hr /></div>
-        <p className='mt-[30px] text-[#CCC2C2] text-center font-redRose tracking-[0.8px]'>© 2013-2023 | The Dogecoin Foundation & Dogecoin Project. All rights reserved.</p>
       </Container>
+      <div className='mt-[60px]'>
+        <img src={footerLine} alt="" />
+      </div>
+      <p className='mt-[30px] text-[#CCC2C2] text-center font-redRose tracking-[0.8px]'>© 2013-2023 | The Dogecoin Foundation & Dogecoin Project. All rights reserved.</p>
     </div>
   );
 };
