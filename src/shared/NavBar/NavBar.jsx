@@ -35,26 +35,26 @@ const NavBar = () => {
               }
             </div>
 
-            <ul className={`text-[14px] 2xl:text-[16px] md:flex md:items-center md:py-3 pt-5 pb-7 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] border ${color ? 'bg-[#e1f3e1] border-[#b2e1b2]' : 'bg-[#F7FFF7] border-[#b2e1b2]'} ${open ? 'top-[75px] opacity-100' : 'top-[-490px]'}`}>
+            <ul className={`text-[14px] 2xl:text-[16px] md:flex md:items-center md:py-3 pt-5 pb-7 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] ${open ? 'top-[75px] opacity-100' : 'top-[-490px]'}`}>
 
               <li>
-                <Link to="/" className="text-[#36AE36] font-amulya font-normal md:ml-4 xl:ml-8 2xl:ml-10 my-4 md:my-0 cursor-pointer">About</Link>
+                <Link to="/" className="text-[#BB0F31] font-redRose font-normal">So Home</Link>
               </li>
 
               <li>
-                <Link to="/" className="text-[#181818] hover:text-[#36AE36] font-amulya font-normal md:ml-4 xl:ml-8 2xl:ml-10 my-4 md:my-0 cursor-pointer duration-200">Fundamentals</Link>
+                <Link to="/" className="text-[#CCC2C2] hover:text-[#BB0F31] font-amulya font-normal duration-200">What is Dogecoin?</Link>
               </li>
 
               <li>
-                <Link to="/" className="text-[#181818] hover:text-[#36AE36] font-amulya font-normal md:ml-4 xl:ml-8 2xl:ml-10 my-4 md:my-0 cursor-pointer duration-200">Tokenomics</Link>
+                <Link to="/" className="text-[#CCC2C2] hover:text-[#BB0F31] font-amulya font-normal md:ml-4 xl:ml-8 2xl:ml-10 my-4 md:my-0 cursor-pointer duration-200">Much Wallets</Link>
               </li>
 
               <li>
-                <Link to="/" className="text-[#181818] hover:text-[#36AE36] font-amulya font-normal md:ml-4 xl:ml-8 2xl:ml-10 my-4 md:my-0 cursor-pointer">How to Buy</Link>
+                <Link to="/" className="text-[#CCC2C2] hover:text-[#BB0F31] font-amulya font-normal md:ml-4 xl:ml-8 2xl:ml-10 my-4 md:my-0 cursor-pointer">Very Community</Link>
               </li>
 
               <li>
-                <Link to="/" className="text-[#181818] hover:text-[#36AE36] font-amulya font-normal md:mx-4 xl:mx-8 2xl:ml-10 my-4 md:my-0 cursor-pointer duration-200">Connect</Link>
+                <Link to="/" className="text-[#CCC2C2] hover:text-[#BB0F31] font-amulya font-normal md:mx-4 xl:mx-8 2xl:ml-10 my-4 md:my-0 cursor-pointer duration-200">So Dogepedia</Link>
               </li>
 
               <Button className="text-[14px] 2xl:text-[16px] rounded-[5px] group cursor-pointer px-5 md:px-7 md:hidden">Buy $Midcurve</Button>
