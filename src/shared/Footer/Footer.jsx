@@ -37,6 +37,8 @@ const Footer = () => {
             <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Trailmap</Link>
           </div>
         </div>
+        <div className='bg-[#7B686C] mt-[60px]'><hr /></div>
+        <p className='mt-[30px] text-[#CCC2C2] text-center font-redRose tracking-[0.8px]'>© 2013-2023 | The Dogecoin Foundation & Dogecoin Project. All rights reserved.</p>
       </Container>
     </div>
   );
