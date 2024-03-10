@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from '../Container/Container';
 import { IoIosArrowRoundDown } from "react-icons/io";
+import { RiArrowRightSLine } from "react-icons/ri";
 import cardBg1 from '@/assets/about_us/Rectangle4.png'
 import cardBg2 from '@/assets/about_us/Rectangle22.png'
 import icon1 from '@/assets/about_us/image272.png'
@@ -19,8 +20,8 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='flex mt-10 group w-fit'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] uppercase border py-[10px] 2xl:py-[12px] px-8 2xl:px-9 rounded-[19px]'>
-                    Buy Now
+                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[10px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                    See All
                   </button>
 
                   <div className='w-[45px] h-[52px] bg-[#bb0f31] rounded-[24px] -rotate-45 flex justify-center items-center border -ml-4 cursor-pointer'>
@@ -41,12 +42,12 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='flex group w-fit 2xl:mt-8'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] uppercase border py-[10px] 2xl:py-[12px] px-8 2xl:px-9 rounded-[19px]'>
-                    Buy Now
+                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                    Visit
                   </button>
 
                   <div className='w-[45px] h-[52px] bg-[#bb0f31] rounded-[24px] -rotate-45 flex justify-center items-center border -ml-4 cursor-pointer'>
-                    <IoIosArrowRoundDown className='text-[30px] text-white group-hover:-rotate-45 duration-300' />
+                    <RiArrowRightSLine className='text-[28px] text-white rotate-45 group-hover:mt-1 duration-300' />
                   </div>
                 </div>
               </div>
