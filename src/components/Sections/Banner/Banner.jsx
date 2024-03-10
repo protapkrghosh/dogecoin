@@ -57,7 +57,7 @@ const Banner = () => {
                 {/* Custom Button */}
                 <div className='flex justify-center mt-5'>
                   <div className='flex mt-10 group'>
-                    <button className='text-white text-[17px] 2xl:text-[18px] uppercase border py-[10px] 2xl:py-[12px] px-8 2xl:px-9 rounded-[19px]'>
+                    <button className='text-white text-[17px] 2xl:text-[18px] uppercase border py-[10px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                       Buy Now
                     </button>
 
