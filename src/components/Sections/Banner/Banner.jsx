@@ -17,9 +17,9 @@ const Banner = () => {
 
             {/* Card */}
             <div className='flex justify-between items-start'>
-              {/* Card One */}
+              {/* Such core */}
               <div>
-                <div className='p-[1px] bg-gradient-to-b from-[#9c7177] form-40% to-[#6d262a56] to-60%'>
+                <div className='p-[1px] bg-gradient-to-b from-[#9c7177d0] form-40% to-[#6d262a1e] to-60%'>
                   <div className='bg-gradient-to-r from-[#641c27] to-[#641c27]'>
                     <p className='text-center text-white font-redRose py-5 px-10'>Such Core Wallet 1.14.6 <br /> released! Much upgrade, plz!</p>
                   </div>
@@ -46,11 +46,11 @@ const Banner = () => {
                 </div>
               </div>
 
-              {/* Card two */}
+              {/* Peoples Cryptocurrency */}
               <div>
-                <div className='p-[1px] bg-gradient-to-l from-[#9c7177] form-40% to-[#6d262a56] to-60%'>
-                  <div className='bg-gradient-to-r from-[#641c27] to-[#641c27]'>
-                    <p className='text-end text-[#d6acb1] text-[25px] font-redRose font-semibold py-5 pl-10 pr-5'>The People's <br /> Cryptocurrency</p>
+                <div className='p-[1px] bg-gradient-to-l from-[#9c7177d0] form-40% to-[#6d262a56] to-60%'>
+                  <div className='bg-gradient-to-r from-[#7a222c] to-[#6e1e27]'>
+                    <p className='text-end text-[#d6acb1] text-[25px] font-redRose py-5 pl-10 pr-5'>The People's <br /> Cryptocurrency</p>
                   </div>
                 </div>
 
