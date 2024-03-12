@@ -10,7 +10,7 @@ const DoOnlyGood = () => {
       <Container>
         <div className='lg:flex items-center md:gap-x-10 lg:gap-x-14 xl:gap-x-20 relative'>
           <div className='lg:w-1/2'>
-            <img src={thimble} alt="Image" className='lg:w-[550px] 2xl:w-[600px] mb-8 md:mb-0 md:ml-8 lg:ml-12 pr-14' />
+            <img src={thimble} alt="Image" className='lg:w-[550px] 2xl:w-[600px] mb-8 md:mb-0 md:ml-8 lg:ml-12 md:pr-14' />
             <div style={{ backgroundImage: `url(${shape})` }} className='md:w-[90px] lg:w-[120px] md:h-[90px] lg:h-[120px] bg-no-repeat bg-contain md:-mt-12 lg:-mt-16' />
           </div>
 
