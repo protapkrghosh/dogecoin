@@ -11,11 +11,11 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const Faq = () => {
   return (
-    <div className="py-24">
+    <div className="py-14 lg:py-24">
       <Container>
-        <div className="flex justify-between items-center">
-          <div className="w-1/2">
-            <div className='flex items-center'>
+        <div className="lg:flex justify-between items-center">
+          <div className="lg:w-1/2">
+            <div className='flex md:justify-center lg:justify-normal items-center mb-16 lg:mb-0'>
               {/* Images */}
               <div>
                 <h2 className="text-[#BB0F31] text-[53px] font-semibold font-redRose uppercase ml-9 mb-2">faq</h2>
@@ -24,21 +24,21 @@ const Faq = () => {
               </div>
 
               {/* Resources content */}
-              <div className="font-redRose text-center mb-9 2xl:mb-12 -ml-10 2xl:ml-0">
-                <p className="text-white text-[38px] 2xl:text-[42px] font-semibold">Resources</p>
+              <div className="font-redRose text-center md:mb-9 2xl:mb-12 md:-ml-10 2xl:ml-0">
+                <p className="text-white text-[30px] md:text-[38px] lg:text-[30px] xl:text-[38px] 2xl:text-[42px] font-semibold">Resources</p>
                 <img src={line} alt="Image" className="my-5 2xl:my-6" />
 
-                <p className="text-white text-[38px] 2xl:text-[42px] font-semibold">How To's</p>
+                <p className="text-white text-[30px] md:text-[38px] lg:text-[30px] xl:text-[38px] 2xl:text-[42px] font-semibold">How To's</p>
                 <img src={line} alt="Image" className="my-5 2xl:my-6" />
 
-                <p className="text-white text-[38px] 2xl:text-[42px] font-semibold">Documentation</p>
+                <p className="text-white text-[30px] md:text-[38px] lg:text-[30px] xl:text-[38px] 2xl:text-[42px] font-semibold">Documentation</p>
                 <img src={line} alt="Image" className="mt-5 2xl:mt-6" />
               </div>
             </div>
           </div>
 
           {/* Accordion */}
-          <div className="w-1/2 space-y-7">
+          <div className="lg:w-1/2 space-y-7">
             <div className="p-[1px] bg-gradient-to-b from-[#791c0f] form-40% to-[#6d262a00] to-60% rounded-[15px]">
               <div className="bg-[#260d06] rounded-[15px]">
                 <div style={{ backgroundImage: `url(${accordionBg2})` }} className="bg-no-repeat bg-cover">
