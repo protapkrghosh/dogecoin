@@ -10,7 +10,6 @@ const Home = () => {
     <div>
       <Banner />
       <SocialMedia />
-      <GettingStarted />
       <WhatIsDogecoin />
       <GettingStarted />
       <DoOnlyGood />
