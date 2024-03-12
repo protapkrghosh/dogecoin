@@ -38,7 +38,7 @@ const Faq = () => {
           </div>
 
           {/* Accordion */}
-          <div className="lg:w-1/2 space-y-7">
+          <div className="lg:w-1/2 space-y-7 font-redRose">
             <div className="p-[1px] bg-gradient-to-b from-[#791c0f] form-40% to-[#6d262a00] to-60% rounded-[15px]">
               <div className="bg-[#260d06] rounded-[15px]">
                 <div style={{ backgroundImage: `url(${accordionBg2})` }} className="bg-no-repeat bg-cover">

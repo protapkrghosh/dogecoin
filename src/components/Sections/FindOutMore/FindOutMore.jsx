@@ -13,7 +13,7 @@ import icon5 from '@/assets/about_us/Vector 4.png'
 
 const FindOutMore = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-10 mb-28'>
       <Container>
         <div className='md:flex gap-x-8'>
           {/* About us card */}
