@@ -27,7 +27,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='mt-9 group w-fit relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[10px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[10px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     See All
                   </button>
 
@@ -50,7 +50,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='group w-fit pt-1 2xl:pt-0 relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     Visit
                   </button>
 
@@ -75,7 +75,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='group w-fit pt-1 2xl:pt-0 relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     Visit
                   </button>
 
@@ -98,7 +98,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='group w-fit pt-1 2xl:pt-0 relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     Visit
                   </button>
 
@@ -121,7 +121,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='group w-fit pt-1 2xl:pt-0 relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     Visit
                   </button>
 

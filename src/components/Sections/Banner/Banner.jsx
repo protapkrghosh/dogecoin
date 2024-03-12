@@ -21,7 +21,7 @@ const Banner = () => {
               <div>
                 <div className='p-[1px] bg-gradient-to-b from-[#9c7177] form-40% to-[#6d262a56] to-60%'>
                   <div className='bg-gradient-to-r from-[#641c27] to-[#641c27]'>
-                    <p className='text-center text-white py-5 px-10'>Such Core Wallet 1.14.6 <br /> released! Much upgrade, plz!</p>
+                    <p className='text-center text-white font-redRose py-5 px-10'>Such Core Wallet 1.14.6 <br /> released! Much upgrade, plz!</p>
                   </div>
                 </div>
 
@@ -50,14 +50,14 @@ const Banner = () => {
               <div>
                 <div className='p-[1px] bg-gradient-to-l from-[#9c7177] form-40% to-[#6d262a56] to-60%'>
                   <div className='bg-gradient-to-r from-[#641c27] to-[#641c27]'>
-                    <p className='text-end text-[#d6acb1] text-[25px] font-semibold py-5 pl-10 pr-5'>The People's <br /> Cryptocurrency</p>
+                    <p className='text-end text-[#d6acb1] text-[25px] font-redRose font-semibold py-5 pl-10 pr-5'>The People's <br /> Cryptocurrency</p>
                   </div>
                 </div>
 
                 {/* Custom Button */}
                 <div className='flex justify-center mt-5'>
                   <div className='flex mt-10 group'>
-                    <button className='text-white text-[17px] 2xl:text-[18px] uppercase border py-[10px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                    <button className='text-white text-[17px] 2xl:text-[18px] font-redRose uppercase border py-[10px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                       Buy Now
                     </button>
 
