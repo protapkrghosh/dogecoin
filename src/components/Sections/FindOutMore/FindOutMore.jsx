@@ -18,7 +18,7 @@ const FindOutMore = () => {
         <div className='md:flex gap-x-8'>
           {/* About us card */}
           <div className='md:w-[50%] lg:w-[72.2%] bg-[#BB0F31] rounded-[5px]'>
-            <div style={{ backgroundImage: `url(${cardBg1})` }} className='bg-no-repeat bg-right-bottom'>
+            <div style={{ backgroundImage: `url(${cardBg1})` }} className='bg-no-repeat bg-right-bottom rounded-[5px]'>
               <div className='p-10 relative'>
                 <p className='text-[#FFF] text-[22px] font-redRose font-bold tracking-[3.3px] mb-3'>About Us</p>
                 <p className='text-[#FFF] text-[45px] md:text-[40px] lg:text-[45px] xl:text-[53px] font-redRose font-bold leading-[52px] md:leading-[40px] lg:leading-[60px]'>Find out more about <br /> Dogecoin</p>
