@@ -8,15 +8,15 @@ const Footer = () => {
   return (
     <div className='mt-10'>
       <Container>
-        <div className='grid grid-cols-4'>
-          {/* first part  */}
-          <div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-7 md:gap-0'>
+          {/* Dogecoin  */}
+          <div className=''>
             <img src={footerLogo} alt="" />
-            <p className='text-[#CCC2C2] font-redRose text-[16px] tracking-[0.8px] w-[397px] mt-[25px]'>The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer & Shibetoshi Nakamoto.</p>
+            <p className='text-[#CCC2C2] font-redRose text-[16px] tracking-[0.8px] xl:w-[300px] 2xl:w-[397px] mt-[25px]'>The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer & Shibetoshi Nakamoto.</p>
           </div>
 
-          {/* second part  */}
-          <div className='flex justify-end'>
+          {/* Announcements  */}
+          <div className='flex justify-start md:justify-center lg:justify-end md:ml-14 lg:ml-0'>
             <div>
               <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Announcements</p>
               <div className='flex flex-col w-fit'>
@@ -25,8 +25,8 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* third part  */}
-          <div className='flex justify-end'>
+          {/* Sitemap  */}
+          <div className='flex lg:justify-end md:mt-10 lg:mt-0'>
             <div>
               <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Sitemap</p>
               <div className='flex flex-col'>
@@ -39,8 +39,8 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* end part */}
-          <div className='flex justify-end'>
+          {/* Foundation */}
+          <div className='flex justify-start md:justify-center lg:justify-end md:mt-10 lg:mt-0'>
             <div>
               <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Foundation</p>
               <div className='flex flex-col w-[30%]'>
