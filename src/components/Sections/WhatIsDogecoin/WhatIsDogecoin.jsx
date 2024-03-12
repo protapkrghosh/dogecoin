@@ -1,33 +1,20 @@
-import React from 'react';
+import dogeImg from '@/assets/whatis_dogecoin/Group60.png';
 import Container from '../Container/Container';
-import thimble from '@/assets/do_only_good/image263.png'
-import shape from '@/assets/do_only_good/Group58.png'
-import icon from '@/assets/do_only_good/Vector3.png'
 
 const WhatIsDogecoin = () => {
   return (
-    <div className='bg-[#BB0F31] py-24'>
+    <div>
       <Container>
-        <div className='md:flex items-center md:gap-x-10 lg:gap-x-14 xl:gap-x-20'>
-          <div className='md:w-1/2'>
-          <div></div>
+        <div className='md:flex items-center'>
+          <div className="md:w-1/2">
+            <h1 className='text-[#FFFFFF] font-redRose text-[45px] md:text-[40px] lg:text-[45px] xl:text-[53px] font-semibold'>What is Dogecoin?</h1>
+            <p className='text-[#E6DADA] font-redRose lg:w-[86%] 2xl:w-[69%] mt-2 mb-6'>An open-source peer-to-peer digital currency, favoured by Shiba Inus worldwide.</p>
 
-            <div>
-              <img src={thimble} alt="Image" className='lg:w-[550px] 2xl:w-[600px] mb-8 md:mb-0' />
-            </div>
-
-            {/* <img src={shape} alt="Image" className='w-[130px]' /> */}
+            <p className='text-[#CCC2C2] font-redRose lg:w-[97%] 2xl:w-[78%]'>At its heart, Dogecoin is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes. More than this, though, is the ethos of Dogecoin, summarised in the Dogecoin Manifesto , and its amazing, vibrant community made up of friendly folks just like you! <br /> <span className='text-[#FF4500] cursor-pointer hover:underline'>LEARN MORE</span></p>
           </div>
 
-          {/* Content */}
-          <div className='md:w-1/2'>
-            <div className='relative'>
-              <h2 className='text-[45px] md:text-[40px] lg:text-[45px] xl:text-[53px] text-white font-semibold capitalize leading-[70px] mb-7'>Do only good <br /> everyday.</h2>
-
-              <img src={icon} alt="image" className='w-[160px] lg:w-[200px] xl:w-[220px] absolute bottom-0 right-12 md:-right-3 lg:right-3 xl:right-16 2xl:right-52' />
-            </div>
-
-            <p className='text-[#E5D8D8] 2xl:text-[18px] xl:w-[82%] 2xl:w-[69%]'>The Dogecoin community cares about supporting each other, being kind, teaching people about cryptocurrency, fundraising, having fun, making memes, and being absurd. This is nicely captured by Dogecoin’s unofficial tagline: Do Only Good Everyday. Get involved in our awesome community via the below links:</p>
+          <div className="md:w-1/2">
+            <img src={dogeImg} alt="Image" />
           </div>
         </div>
       </Container>

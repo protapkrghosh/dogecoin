@@ -18,7 +18,7 @@ const FindOutMore = () => {
         <div className='md:flex gap-x-8'>
           {/* About us card */}
           <div className='md:w-[50%] lg:w-[72.2%] bg-[#BB0F31] rounded-[5px]'>
-            <div style={{ backgroundImage: `url(${cardBg1})` }} className='bg-no-repeat bg-right-bottom'>
+            <div style={{ backgroundImage: `url(${cardBg1})` }} className='bg-no-repeat bg-right-bottom rounded-[5px]'>
               <div className='p-10 relative'>
                 <p className='text-[#FFF] text-[22px] font-redRose font-bold tracking-[3.3px] mb-3'>About Us</p>
                 <p className='text-[#FFF] text-[45px] md:text-[40px] lg:text-[45px] xl:text-[53px] font-redRose font-bold leading-[52px] md:leading-[40px] lg:leading-[60px]'>Find out more about <br /> Dogecoin</p>
@@ -27,7 +27,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='mt-9 group w-fit relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[10px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[10px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     See All
                   </button>
 
@@ -50,7 +50,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='group w-fit pt-1 2xl:pt-0 relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     Visit
                   </button>
 
@@ -75,7 +75,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='group w-fit pt-1 2xl:pt-0 relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     Visit
                   </button>
 
@@ -98,7 +98,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='group w-fit pt-1 2xl:pt-0 relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     Visit
                   </button>
 
@@ -121,7 +121,7 @@ const FindOutMore = () => {
 
                 {/* Custom Button */}
                 <div className='group w-fit pt-1 2xl:pt-0 relative'>
-                  <button className='text-white text-[17px] 2xl:text-[18px] border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
+                  <button className='text-white text-[17px] 2xl:text-[18px] font-redRose border py-[8px] 2xl:py-[12px] px-10 2xl:px-9 rounded-[26px]'>
                     Visit
                   </button>
 
