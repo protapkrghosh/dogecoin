@@ -4,6 +4,7 @@ import GettingStarted from '@/components/Sections/GettingStarted/GettingStarted'
 import SocialMedia from '@/components/Sections/SocialMedia/SocialMedia';
 import DoOnlyGood from '@/components/Sections/DoOnlyGood/DoOnlyGood';
 import WhatIsDogecoin from '@/components/Sections/WhatIsDogecoin/WhatIsDogecoin';
+import Faq from '@/components/Sections/Faq/Faq';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <WhatIsDogecoin />
       <GettingStarted />
       <DoOnlyGood />
+      <Faq />
       <FindOutMore />
     </div>
   );
