@@ -57,7 +57,7 @@ const GettingStarted = () => {
             </div>
           </div>
 
-          {/* icon card  */}
+          {/*  icon card  */}
           <div className='relative'>
             <div className='absolute 2xl:mt-[-520px] 2xl:ml-[1050px] xl:mt-[-485px] xl:ml-[895px]'>
               <img src={getIcon3} alt="" />
