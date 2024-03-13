@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className='mt-10'>
       <Container>
-        {/* shadow part  */}
+        {/*  shadow part  */}
         <div className='w-[300px] h-[300px] rounded-[400px] bg-[#BB0F31] blur-[200px] mt-[-300px]' />
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-7 md:gap-0'>
           {/* Dogecoin  */}
