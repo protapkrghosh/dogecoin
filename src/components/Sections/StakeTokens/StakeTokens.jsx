@@ -18,22 +18,22 @@ const StakeTokens = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center gap-x-10 lg:gap-x-14 xl:gap-x-24 text-center">
           {/* Buy now card */}
           <div className="md:w-2/3 lg:w-2/5 md:mx-auto lg:mx-0 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]">
-            <h3 className="text-[26px] lg:text-[22px] xl:text-[25px] font-semibold capitalize mb-5">Buy now before price rise</h3>
+            <h3 className="text-[26px] lg:text-[22px] xl:text-[25px] 2xl:text-[28px] font-semibold capitalize mb-5">Buy now before price rise</h3>
             <div className="flex justify-between bg-[#BB0F31] rounded-[20px] px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1">
               <div className="font-semibold">
-                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] -mb-2">Days</p>
+                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Days</p>
                 <p className="text-[43px]">01</p>
               </div>
               <div className="font-semibold">
-                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] -mb-2">Hours</p>
+                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Hours</p>
                 <p className="text-[43px]">02</p>
               </div>
               <div className="font-semibold">
-                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] -mb-2">Minutes</p>
+                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Minutes</p>
                 <p className="text-[43px]">53</p>
               </div>
               <div className="font-semibold">
-                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] -mb-2">Second</p>
+                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Second</p>
                 <p className="text-[43px]">02</p>
               </div>
             </div>
@@ -42,19 +42,19 @@ const StakeTokens = () => {
             <Progress value={90} />
 
             <div className="flex justify-center items-center mb-1 mt-4">
-              <p className="uppercase tracking-[1px] mr-2">YOUR PURCHASED $POODL= 0</p>
+              <p className="2xl:text-[18px] uppercase tracking-[1px] mr-2">YOUR PURCHASED $POODL= 0</p>
               <IoMdInformationCircleOutline className="text-[#bb0f31] rotate-180" />
             </div>
 
             <div className="flex justify-center items-center">
-              <p className="uppercase tracking-[1px] mr-2">YOUR STAKEABLE $POODL= 0</p>
+              <p className="2xl:text-[18px] uppercase tracking-[1px] mr-2">YOUR STAKEABLE $POODL= 0</p>
               <IoMdInformationCircleOutline className="text-[#bb0f31] rotate-180" />
             </div>
 
             <div className="flex justify-center items-center my-4">
-              <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px]" />
-              <p className="uppercase tracking-[2px] md:tracking-[4px] lg:tracking-[0px] xl:tracking-[4px] px-2">1 $Poodl - $0.000445</p>
-              <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px]" />
+              <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px] 2xl:w-[90px]" />
+              <p className="2xl:text-[18px] uppercase tracking-[2px] md:tracking-[4px] lg:tracking-[0px] xl:tracking-[4px] px-2">1 $Poodl - $0.000445</p>
+              <img src={line} alt="Image" className="w-[52px] md:w-[55px] lg:w-[50px] 2xl:w-[90px]" />
             </div>
 
             {/* Ethereum button */}
@@ -77,9 +77,9 @@ const StakeTokens = () => {
 
             {/* ETH you pay */}
             <div className="text-white flex justify-between mt-5 mb-4">
-              <p className="md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">ETH you pay</p>
-              <p className="md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">Max</p>
-              <p className="md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">$Poodl you receive</p>
+              <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">ETH you pay</p>
+              <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">Max</p>
+              <p className="2xl:text-[18px] md:tracking-[2px] lg:tracking-[0px] xl:tracking-[2px] 2xl:tracking-[3px]">$Poodl you receive</p>
             </div>
 
             {/* Input field */}
@@ -102,7 +102,7 @@ const StakeTokens = () => {
               <Button className="text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-1/2">Connect Wallet</Button>
 
               <div className="relative xl:w-1/2">
-                <img src={icon4} alt="Image" className="w-[25px] absolute top-8 xl:top-[12px] 2xl:top-[14px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
+                <img src={icon4} alt="Image" className="w-[25px] absolute top-8 xl:top-[12px] 2xl:top-[16px] left-16 md:left-24 lg:left-14 xl:left-2 2xl:left-3 cursor-pointer" />
 
                 <Button className="text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] pl-10 2xl:pl-10 py-6 2xl:py-7 mt-5 xl:mt-0 tracking-[2px] 2xl:tracking-[3px] w-full xl:w-auto">Buy with BNB</Button>
               </div>
