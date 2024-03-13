@@ -56,10 +56,10 @@ const GettingStarted = () => {
 
           {/*  icon card 3 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-405px] 2xl:ml-[1050px] xl:mt-[-335px] xl:ml-[820px]'>
+            <div className='absolute 2xl:mt-[-405px] 2xl:ml-[1050px] xl:mt-[-335px] xl:ml-[820px] lg:mt-[-270px] lg:ml-[615px]'>
               <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>3</p>
             </div>
-            <div className='2xl:w-[20%] xl:w-[25%] absolute 2xl:mt-[-335px] 2xl:ml-[1100px] xl:mt-[-265px] xl:ml-[865px]'>
+            <div className='2xl:w-[20%] xl:w-[25%] lg:w-[30%] absolute 2xl:mt-[-335px] 2xl:ml-[1100px] xl:mt-[-265px] xl:ml-[865px] lg:mt-[-205px] lg:ml-[658px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>There’s lots of ways to get your hands on some Dogecoin.</p>
               <div className='text-center'>
