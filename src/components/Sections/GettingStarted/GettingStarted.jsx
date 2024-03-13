@@ -12,9 +12,9 @@ const GettingStarted = () => {
   return (
     <>
       <Container>
-        <div className=''>
+        <div className='mt-10 lg:mt-16'>
           <div className='lg:relative'>
-            <p className='text-[#FFF] text-center text-[65px] font-bold font-redRose tracking-[5.85px] mt-[150px]'>Getting started</p>
+            <p className='text-[#FFF] text-center text-[65px] font-bold font-redRose tracking-[5.85px]'>Getting started</p>
             <img className='lg:absolute 2xl:ml-[400px] xl:ml-80 lg:ml-40 md:ml-16 ml-12' src={getImg} alt="Image" />
           </div>
           {/* getIcon  */}
@@ -24,9 +24,9 @@ const GettingStarted = () => {
 
           {/* icon card 1 */}
           <div className='md:grid lg:grid-cols-none grid-cols-2 gap-x-10 mt-16 lg:mt-0'>
-            <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-normal'>
+            <div className='lg:relative flex lg:flex-none md:justify-center lg:justify-normal'>
               <div className='lg:absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-38px] xl:ml-[-30px] lg:mt-[-37px] lg:ml-[-35px]'>
-                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>1</p>
+                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent -mt-14 lg:mt-0 -mr-16 lg:mr-0'>1</p>
               </div>
 
               <div className='2xl:w-[23%] xl:w-[28%] lg:w-[30%] lg:absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[30px] xl:ml-[-15px] lg:mt-[30px] lg:ml-[-25px]'>
@@ -41,9 +41,9 @@ const GettingStarted = () => {
             </div>
 
             {/* icon card 2 */}
-            <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-normal'>
+            <div className='lg:relative flex lg:flex-none md:justify-center lg:justify-normal mt-20 lg:mt-0'>
               <div className='lg:absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-222px] xl:ml-[410px] lg:mt-[-190px] lg:ml-[270px]'>
-                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>2</p>
+                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent -mt-14 lg:mt-0 -mr-16 lg:mr-0'>2</p>
               </div>
 
               <div className='2xl:w-[23%] xl:w-[25%] lg:w-[30%] lg:absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-155px] xl:ml-[460px] lg:mt-[-120px] lg:ml-[335px]'>
@@ -58,9 +58,9 @@ const GettingStarted = () => {
             </div>
 
             {/*  icon card 3 */}
-            <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-normal  mt-20 lg:mt-0'>
+            <div className='lg:relative flex lg:flex-none md:justify-center lg:justify-normal  mt-20 lg:mt-0'>
               <div className='lg:absolute 2xl:mt-[-405px] 2xl:ml-[1050px] xl:mt-[-335px] xl:ml-[820px] lg:mt-[-270px] lg:ml-[615px]'>
-                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>3</p>
+                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent -mt-14 lg:mt-0 -mr-16 lg:mr-0'>3</p>
               </div>
 
               <div className='2xl:w-[20%] xl:w-[25%] lg:w-[30%] lg:absolute 2xl:mt-[-335px] 2xl:ml-[1100px] xl:mt-[-265px] xl:ml-[865px] lg:mt-[-205px] lg:ml-[658px]'>
@@ -78,14 +78,14 @@ const GettingStarted = () => {
 
         {/*  section part 2  */}
         <div className='mt-[450px] mb-[150px]'>
-          <div className='grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 content-center gap-32 lg:relative'>
+          <div className='grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 content-center md:gap-y-20 lg:gap-16 xl:gap-32 lg:relative'>
             <img src={imgIcon1} alt="Image" />
             <img src={imgIcon2} alt="Image" />
             <img src={imgIcon3} alt="Image" />
             <img src={imgIcon4} alt="Image" />
 
             {/* Black dot */}
-            <img className='md:absolute 2xl:w-[42px] xl:w-[34px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[86px] xl:mt-[118px] lg:ml-[86px] lg:mt-[118px] md:ml-[107px] md:mt-[147px] ml-[107px] mt-[-2037px]' src={imgIcon11} alt="Image" />
+            <img className='lg:w-[29px] md:absolute 2xl:w-[42px] xl:w-[31px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[77px] xl:mt-[105px] lg:ml-[73px] lg:mt-[100px] md:ml-[107px] md:mt-[147px] ml-[107px] mt-[-2037px]' src={imgIcon11} alt="Image" />
           </div>
         </div>
       </Container>
