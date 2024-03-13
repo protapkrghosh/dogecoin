@@ -6,8 +6,10 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-10 relative'>
       <Container>
+        {/*  shadow part  */}
+        <div className='w-[300px] h-[300px] absolute top-[0px] rounded-[400px] bg-[#551318] shadowFooter' />
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-7 md:gap-0'>
           {/* Dogecoin  */}
           <div className=''>
@@ -40,7 +42,9 @@ const Footer = () => {
           </div>
 
           {/* Foundation */}
-          <div className='flex justify-start md:justify-center lg:justify-end md:mt-10 lg:mt-0'>
+          <div className='flex relative justify-start md:justify-center lg:justify-end md:mt-10 lg:mt-0'>
+            {/* shadow part  */}
+            <div className='w-[300px] h-[300px] rounded-[400px] bg-[#551318] shadowFooter top-[-30px] absolute' />
             <div>
               <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Foundation</p>
               <div className='flex flex-col w-[30%]'>
