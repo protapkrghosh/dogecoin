@@ -15,11 +15,11 @@ const GettingStarted = () => {
         <div className=''>
           <div className='lg:relative'>
             <p className='text-[#FFF] text-center text-[65px] font-bold font-redRose tracking-[5.85px] mt-[150px]'>Getting started</p>
-            <img className='lg:absolute 2xl:ml-[400px] xl:ml-80 lg:ml-40 md:ml-16 ml-12' src={getImg} alt="" />
+            <img className='lg:absolute 2xl:ml-[400px] xl:ml-80 lg:ml-40 md:ml-16 ml-12' src={getImg} alt="Image" />
           </div>
           {/* getIcon  */}
           <div className='hidden lg:block'>
-            <img src={getIcon} alt="" />
+            <img src={getIcon} alt="Image" />
           </div>
 
           {/* icon card 1 */}
@@ -84,7 +84,8 @@ const GettingStarted = () => {
             <img src={imgIcon3} alt="Image" />
             <img src={imgIcon4} alt="Image" />
 
-            <img className='lg:absolute 2xl:w-[42px] xl:w-[34px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[86px] xl:mt-[118px] lg:ml-[86px] lg:mt-[118px] md:ml-[107px] md:mt-[147px] ml-[107px] mt-[147px]' src={imgIcon11} alt="Image" />
+            {/* Black dot */}
+            <img className='md:absolute 2xl:w-[42px] xl:w-[34px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[86px] xl:mt-[118px] lg:ml-[86px] lg:mt-[118px] md:ml-[107px] md:mt-[147px] ml-[107px] mt-[-2037px]' src={imgIcon11} alt="Image" />
           </div>
         </div>
       </Container>
