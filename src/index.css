@@ -11,7 +11,7 @@ body {
 
 .textBorderColor {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #BB0F31;
+  -webkit-text-stroke-color: #bb0f31ab;
 }
  
 @layer base {
