@@ -24,7 +24,7 @@ const Banner = () => {
               {/* Such core */}
               <div className='my-10 md:my-0'>
                 <div className='p-[1px] bg-gradient-to-b from-[#9c7177d0] form-40% to-[#6d262a1e] to-60%'>
-                  <div className='bg-gradient-to-r from-[#641c27] to-[#641c27]'>
+                  <div className='bg-gradient-to-r from-[#641c27] to-[#6C1E1F]'>
                     <p className='text-center 2xl:text-[18px] text-white font-redRose py-5 px-5 xl:px-10'>Such Core Wallet 1.14.6 <br /> released! Much upgrade, plz!</p>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const Banner = () => {
               {/* Peoples Cryptocurrency */}
               <div>
                 <div className='p-[1px] bg-gradient-to-l from-[#9c7177d0] form-40% to-[#6d262a56] to-60%'>
-                  <div className='bg-gradient-to-r from-[#7a222c] to-[#6e1e27]'>
+                  <div className='bg-gradient-to-r from-[#832f2b] to-[#641c27]'>
                     <p className='text-end text-[#d6acb1] text-[25px] font-redRose py-5 px-7 xl:pl-10 pr-5'>The People's <br /> Cryptocurrency</p>
                   </div>
                 </div>
