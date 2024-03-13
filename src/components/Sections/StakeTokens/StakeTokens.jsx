@@ -15,7 +15,7 @@ const StakeTokens = () => {
   return (
     <div className="pt-28 pb-10">
       <Container>
-        <div className="lg:flex items-center gap-x-10 text-center">
+        <div className="lg:flex items-center gap-x-10 lg:gap-x-14 xl:gap-x-24 text-center">
           {/* Buy now card */}
           <div className="lg:w-2/5 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]">
             <h3 className="text-[25px] font-semibold capitalize mb-5">Buy now before price rise</h3>
@@ -52,11 +52,12 @@ const StakeTokens = () => {
             </div>
 
             <div className="flex justify-center items-center my-4">
-              <img src={line} alt="Image" className="w-[45px]" />
+              <img src={line} alt="Image" className="w-[50px]" />
               <p className="uppercase tracking-[4px] px-2">1 $Poodl - $0.000445</p>
-              <img src={line} alt="Image" className="w-[45px]" />
+              <img src={line} alt="Image" className="w-[50px]" />
             </div>
 
+            {/* Ethereum button */}
             <div className="flex justify-between gap-x-6">
               <div className="flex items-center gap-3 2xl:gap-5 bg-[#BB0F31] w-fit px-4 py-[10px] rounded-[30px]">
                 <img src={icon1} alt="Image" className="w-[25px] 2xl:w-[31px]" />
@@ -98,10 +99,11 @@ const StakeTokens = () => {
 
             {/* Button */}
             <div className="flex justify-between gap-x-6 mt-7 mb-8">
-              <Button className="text-[16px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] 2xl:px-5 py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px]">Connect Wallet</Button>
+              <Button className="text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] 2xl:px-5 py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px] w-1/2">Connect Wallet</Button>
 
-              <div>
-                <Button className="text-[16px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] 2xl:px-5 py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px]">Connect Wallet</Button>
+              <div className="relative w-1/2">
+                <img src={icon4} alt="Image" className="w-[25px] absolute top-[12px] left-2 cursor-pointer" />
+                <Button className="text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] pl-10 2xl:px-5 py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px]">Buy with BNB</Button>
               </div>
             </div>
 
@@ -111,9 +113,9 @@ const StakeTokens = () => {
           {/* Stake tokens */}
           <div className="lg:w-auto font-redRose font-semibold">
             <h1 className="text-[#BB0F31] text-[30px] md:text-[38px] lg:text-[30px] xl:text-[40px] 2xl:text-[46px] uppercase">Stake $Dogecoin Tokens</h1>
-            <p className="text-[#eec4cc] text-[22px]">Earn APY & The Earth</p>
+            <p className="text-[#eec4cc] text-[22px] tracking-[3px] text-start">Earn APY & The Earth</p>
 
-            <img src={dogeImg} alt="Image" className="w-[350px] 2xl:w-[400px] mx-auto" />
+            <img src={dogeImg} alt="Image" className="w-[420px] 2xl:w-[450px] mx-auto" />
           </div>
         </div>
       </Container>
