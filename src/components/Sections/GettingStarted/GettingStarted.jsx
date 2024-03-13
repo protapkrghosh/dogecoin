@@ -78,12 +78,12 @@ const GettingStarted = () => {
 
 
         <div className='mt-[150px] mb-[150px]'>
-          <div className='grid grid-cols-4 content-center gap-32 relative'>
+          <div className='grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 content-center gap-32 relative'>
             <img src={imgIcon1} alt="" />
             <img src={imgIcon2} alt="" />
             <img src={imgIcon3} alt="" />
             <img src={imgIcon4} alt="" />
-            <img className='absolute 2xl:w-[42px] xl:w-[34px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[86px] xl:mt-[118px]' src={imgIcon11} alt="" />
+            <img className='absolute 2xl:w-[42px] xl:w-[34px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[86px] xl:mt-[118px] lg:ml-[86px] lg:mt-[118px] md:ml-[107px] md:mt-[147px] ml-[107px] mt-[147px]' src={imgIcon11} alt="" />
           </div>
         </div>
 
