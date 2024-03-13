@@ -13,9 +13,10 @@ const Banner = () => {
       <div className='bg-no-repeat bg-contain bg-bottom mt-24 2xl:mt-40'>
         <Container>
           <div className='relative'>
-            <img src={dogBg} alt="Image" className='w-[750px] mx-auto' />
+            <img src={dogBg} alt="Image" className='lg:w-[550px] xl:w-[750px] mx-auto' />
+
             <div className='flex justify-center'>
-              <img src={textImg} alt="Image" className='w-[850px] 2xl:w-[900px] pt-[50px] pb-[80px] mx-auto absolute -top-8' />
+              <img src={textImg} alt="Image" className='w-[850px] 2xl:w-[900px] pt-[50px] pb-[80px] mx-auto absolute top-0' />
             </div>
 
             {/* Card */}
