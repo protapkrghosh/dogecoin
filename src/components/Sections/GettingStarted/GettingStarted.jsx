@@ -24,6 +24,7 @@ const GettingStarted = () => {
           <div>
             <img src={getIcon} alt="" />
           </div>
+
           {/* icon card  */}
           <div className='relative 2xl:mt-10 xl:mt-[50px] xl:ml-[-35px]'>
             <div>
@@ -33,12 +34,13 @@ const GettingStarted = () => {
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
               <div className='text-center'>
-                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31]'>
+                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
                   Learn More
                 </button>
               </div>
             </div>
           </div>
+
           {/* icon card  */}
           <div className='relative'>
             <div className='absolute 2xl:mt-[-380px] 2xl:ml-[525px] xl:mt-[-370px] xl:ml-[450px]'>
@@ -48,12 +50,13 @@ const GettingStarted = () => {
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>After downloading, you can configure your wallet according to our</p>
               <div className='text-center'>
-                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31]'>
+                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
                   Guide
                 </button>
               </div>
             </div>
           </div>
+
           {/* icon card  */}
           <div className='relative'>
             <div className='absolute 2xl:mt-[-520px] 2xl:ml-[1050px] xl:mt-[-485px] xl:ml-[895px]'>
@@ -63,7 +66,7 @@ const GettingStarted = () => {
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>There’s lots of ways to get your hands on some Dogecoin.</p>
               <div className='text-center'>
-                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31]'>
+                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
                   Learn More
                 </button>
               </div>
