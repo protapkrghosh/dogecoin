@@ -2,9 +2,6 @@ import React from 'react';
 import Container from '../Container/Container';
 import getImg from '@/assets/getting_started/Vector 3.png'
 import getIcon from '@/assets/getting_started/Group 61.png'
-import getIcon1 from '@/assets/getting_started/1.png'
-import getIcon2 from '@/assets/getting_started/2.png'
-import getIcon3 from '@/assets/getting_started/3.png'
 import imgIcon1 from '@/assets/getting_started/o-letter-img (1) 2.png'
 import imgIcon2 from '@/assets/getting_started/o-letter-img (1) 1.png'
 import imgIcon3 from '@/assets/getting_started/g-letter-img 1.png'
@@ -27,10 +24,10 @@ const GettingStarted = () => {
 
           {/* icon card 1 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-38px] xl:ml-[-30px]'>
+            <div className='absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-38px] xl:ml-[-30px] lg:mt-[-38px] lg:ml-[-30px]'>
               <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>1</p>
             </div>
-            <div className='2xl:w-[23%] xl:w-[28%] absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[30px] xl:ml-[-15px]'>
+            <div className='2xl:w-[23%] xl:w-[28%] lg:w-[30%] absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[30px] xl:ml-[-15px] lg:mt-[-38px] lg:ml-[-30px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
               <div className='text-center'>
@@ -43,10 +40,10 @@ const GettingStarted = () => {
 
           {/* icon card 2 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-222px] xl:ml-[410px]'>
+            <div className='absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-222px] xl:ml-[410px] lg:mt-[-190px] lg:ml-[270px]'>
               <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>2</p>
             </div>
-            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-155px] xl:ml-[460px]'>
+            <div className='2xl:w-[23%] xl:w-[25%] lg:w-[30%] absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-155px] xl:ml-[460px] lg:mt-[-120px] lg:ml-[335px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>After downloading, you can configure your wallet according to our</p>
               <div className='text-center'>
