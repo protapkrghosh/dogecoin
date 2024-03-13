@@ -57,10 +57,10 @@ const StakeTokens = () => {
   return (
     <div className="pt-16 lg:pt-28 pb-10">
       <Container>
-        {/* shadow part left side */}
+        {/*  shadow part left side  */}
         <div className='absolute 2xl:w-[440px] 2xl:h-[60px] rounded-[400px] bg-[#1A0408] blur-[110px] 2xl:top-[1100px] 2xl:left-[-15px]' />
         <div className='absolute 2xl:w-[180px] 2xl:h-[360px] rounded-[400px] bg-[#1A0408] blur-[110px] 2xl:top-[1100px] 2xl:left-[-15px]' />
-        {/* shadow part right side */}
+        {/*  shadow part right side  */}
         <div className='absolute 2xl:w-[440px] 2xl:h-[60px] rounded-[400px] bg-[#1A0408] blur-[110px] 2xl:top-[1100px] 2xl:left-[1450px]' />
         <div className='absolute 2xl:w-[180px] 2xl:h-[360px] rounded-[400px] bg-[#1A0408] blur-[110px] 2xl:top-[1100px] 2xl:left-[1700px]' />
 
