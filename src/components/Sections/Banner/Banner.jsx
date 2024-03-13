@@ -9,23 +9,23 @@ import { IoIosArrowRoundDown } from "react-icons/io";
 
 const Banner = () => {
   return (
-    <div style={{ backgroundImage: `url(${networkBg})` }} className='bg-no-repeat bg-cover -mt-[112px] overflow-hidden pb-52'>
-      <div className='bg-no-repeat bg-contain bg-bottom mt-24 2xl:mt-40'>
+    <div style={{ backgroundImage: `url(${networkBg})` }} className='bg-no-repeat bg-cover -mt-[112px] overflow-hidden lg:pb-32 xl:pb-52'>
+      <div className='bg-no-repeat bg-contain bg-bottom lg:mt-32 xl:mt-24 2xl:mt-40'>
         <Container>
           <div className='relative'>
             <img src={dogBg} alt="Image" className='lg:w-[550px] xl:w-[750px] mx-auto' />
 
             <div className='flex justify-center'>
-              <img src={textImg} alt="Image" className='w-[850px] 2xl:w-[900px] pt-[50px] pb-[80px] mx-auto absolute top-0' />
+              <img src={textImg} alt="Image" className='lg:w-[750px] xl:w-[850px] 2xl:w-[900px] pt-[50px] pb-[80px] mx-auto absolute lg:-top-7 xl:top-0' />
             </div>
 
             {/* Card */}
-            <div className='flex justify-between items-start -mt-96 2xl:px-24 2xl:mr-10'>
+            <div className='flex justify-between items-start lg:-mt-72 xl:-mt-96 2xl:px-24 2xl:mr-10'>
               {/* Such core */}
               <div>
                 <div className='p-[1px] bg-gradient-to-b from-[#9c7177d0] form-40% to-[#6d262a1e] to-60%'>
                   <div className='bg-gradient-to-r from-[#641c27] to-[#641c27]'>
-                    <p className='text-center 2xl:text-[18px] text-white font-redRose py-5 px-10'>Such Core Wallet 1.14.6 <br /> released! Much upgrade, plz!</p>
+                    <p className='text-center 2xl:text-[18px] text-white font-redRose py-5 px-5 xl:px-10'>Such Core Wallet 1.14.6 <br /> released! Much upgrade, plz!</p>
                   </div>
                 </div>
 
@@ -40,7 +40,7 @@ const Banner = () => {
                     </a>
                   </div>
 
-                  <div className=''>
+                  <div>
                     <a href="" className="group">
                       <div className="bg-[#bb0f31] hover:bg-[#a12841] p-[14px] rounded-full duration-300 flex justify-center items-center group">
                         <FaTwitter className="text-[25px] text-[#fff] group-hover:scale-105 duration-300" />
@@ -54,7 +54,7 @@ const Banner = () => {
               <div>
                 <div className='p-[1px] bg-gradient-to-l from-[#9c7177d0] form-40% to-[#6d262a56] to-60%'>
                   <div className='bg-gradient-to-r from-[#7a222c] to-[#6e1e27]'>
-                    <p className='text-end text-[#d6acb1] text-[25px] font-redRose py-5 pl-10 pr-5'>The People's <br /> Cryptocurrency</p>
+                    <p className='text-end text-[#d6acb1] text-[25px] font-redRose py-5 px-7 xl:pl-10 pr-5'>The People's <br /> Cryptocurrency</p>
                   </div>
                 </div>
 
