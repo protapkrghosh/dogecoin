@@ -15,7 +15,7 @@ const GettingStarted = () => {
   return (
     <>
       <Container>
-        <div className='mb-[150px] mt-[-150px]'>
+        <div className=''>
           <div className='relative'>
             <p className='text-[#FFF] text-center text-[65px] font-bold font-redRose tracking-[5.85px] mt-[150px]'>Getting started</p>
             <img className='absolute 2xl:ml-[400px] xl:ml-80 lg:ml-40 md:ml-16 ml-12' src={getImg} alt="" />
@@ -25,12 +25,12 @@ const GettingStarted = () => {
             <img src={getIcon} alt="" />
           </div>
 
-          {/* icon card  */}
-          <div className='relative 2xl:mt-10 2xl:ml-[-20px] xl:mt-[50px] xl:ml-[-35px]'>
-            <div>
-              <img src={getIcon1} alt="" />
+          {/* icon card 1 */}
+          <div className='relative'>
+            <div className='absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-485px] xl:ml-[895px]'>
+              <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>1</p>
             </div>
-            <div className='2xl:w-[22%] xl:w-[25%] absolute 2xl:mt-[-150px] 2xl:ml-[22px] xl:mt-[-160px] xl:ml-[15px]'>
+            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[-485px] xl:ml-[925px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
               <div className='text-center'>
@@ -43,10 +43,10 @@ const GettingStarted = () => {
 
           {/* icon card 2 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-445px] 2xl:ml-[525px] xl:mt-[-370px] xl:ml-[450px]'>
+            <div className='absolute 2xl:mt-[-265px] 2xl:ml-[525px] xl:mt-[-370px] xl:ml-[450px]'>
               <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>2</p>
             </div>
-            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-380px] 2xl:ml-[560px] xl:mt-[-370px] xl:ml-[490px]'>
+            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-195px] 2xl:ml-[560px] xl:mt-[-370px] xl:ml-[490px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>After downloading, you can configure your wallet according to our</p>
               <div className='text-center'>
@@ -59,10 +59,10 @@ const GettingStarted = () => {
 
           {/*  icon card 3 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-590px] 2xl:ml-[1050px] xl:mt-[-485px] xl:ml-[895px]'>
+            <div className='absolute 2xl:mt-[-410px] 2xl:ml-[1050px] xl:mt-[-485px] xl:ml-[895px]'>
               <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>3</p>
             </div>
-            <div className='2xl:w-[20%] xl:w-[25%] absolute 2xl:mt-[-520px] 2xl:ml-[1100px] xl:mt-[-485px] xl:ml-[925px]'>
+            <div className='2xl:w-[20%] xl:w-[25%] absolute 2xl:mt-[-340px] 2xl:ml-[1100px] xl:mt-[-485px] xl:ml-[925px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>There’s lots of ways to get your hands on some Dogecoin.</p>
               <div className='text-center'>
@@ -80,7 +80,7 @@ const GettingStarted = () => {
 
 
 
-        <div className='mt-[250px] mb-[150px]'>
+        <div className='mt-[450px] mb-[150px]'>
           <div className='grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 content-center gap-32 relative'>
             <img src={imgIcon1} alt="" />
             <img src={imgIcon2} alt="" />
