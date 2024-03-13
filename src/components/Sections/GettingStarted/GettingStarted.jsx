@@ -26,11 +26,11 @@ const GettingStarted = () => {
           </div>
 
           {/* icon card  */}
-          <div className='relative 2xl:mt-10 xl:mt-[50px] xl:ml-[-35px]'>
+          <div className='relative 2xl:mt-10 2xl:ml-[-20px] xl:mt-[50px] xl:ml-[-35px]'>
             <div>
               <img src={getIcon1} alt="" />
             </div>
-            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-150px] 2xl:ml-[15px] xl:mt-[-160px] xl:ml-[15px]'>
+            <div className='2xl:w-[22%] xl:w-[25%] absolute 2xl:mt-[-150px] 2xl:ml-[22px] xl:mt-[-160px] xl:ml-[15px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
               <div className='text-center'>
