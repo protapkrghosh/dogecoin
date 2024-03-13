@@ -66,7 +66,7 @@ const StakeTokens = () => {
 
         <div className="flex flex-col-reverse lg:flex-row items-center gap-x-10 lg:gap-x-14 xl:gap-x-24 text-center">
           {/* Buy now card */}
-          <div className="md:w-2/3 lg:w-2/5 md:mx-auto lg:mx-0 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]">
+          <div className="md:w-2/3 lg:w-2/5 md:mx-auto lg:mx-0 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]" data-aos="flip-left" data-aos-duration="1000">
             <h3 className="text-[26px] lg:text-[22px] xl:text-[25px] 2xl:text-[28px] font-semibold capitalize mb-5">Buy now before price rise</h3>
 
             {/* Manual Timer */}
@@ -178,8 +178,8 @@ const StakeTokens = () => {
 
           {/* Stake tokens */}
           <div className="lg:w-auto text-start font-redRose font-semibold">
-            <h1 className="text-[#BB0F31] text-[30px] md:text-[38px] lg:text-[30px] xl:text-[40px] 2xl:text-[46px] uppercase">Stake $Dogecoin Tokens</h1>
-            <p className="text-[#eec4cc] text-[22px] tracking-[3px]">Earn APY & The Earth</p>
+            <h1 className="text-[#BB0F31] text-[30px] md:text-[38px] lg:text-[30px] xl:text-[40px] 2xl:text-[46px] uppercase" data-aos="fade-up" data-aos-duration="800">Stake $Dogecoin Tokens</h1>
+            <p className="text-[#eec4cc] text-[22px] tracking-[3px]" data-aos="fade-up" data-aos-duration="1000">Earn APY & The Earth</p>
 
             <img src={dogeImg} alt="Image" className="lg:w-[420px] 2xl:w-[450px] mx-auto my-10 lg:mt-0" />
             {/* shadow part  */}
