@@ -57,9 +57,6 @@ const StakeTokens = () => {
   return (
     <div className="pt-16 lg:pt-28 pb-10">
       <Container>
-        {/* shadow part  */}
-        <div className='absolute w-[200px] h-[300px] rounded-[400px] bg-[#1A0408] blur-[110px] mt-[-85px] ml-[-280px]' />
-        <div className='absolute w-[400px] h-[60px] rounded-[400px] bg-[#1A0408] blur-[110px] mt-[-90px] ml-[-260px]' />
         <div className="flex flex-col-reverse lg:flex-row items-center gap-x-10 lg:gap-x-14 xl:gap-x-24 text-center">
           {/* Buy now card */}
           <div className="md:w-2/3 lg:w-2/5 md:mx-auto lg:mx-0 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]">
