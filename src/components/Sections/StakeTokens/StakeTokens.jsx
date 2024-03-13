@@ -10,15 +10,66 @@ import { Progress } from "@/components/ui/progress"
 import { IoMdInformationCircleOutline } from "react-icons/io";
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
 
 const StakeTokens = () => {
+  const calculateTimeLeft = () => {
+    const difference = +new Date("2024-03-16") - +new Date();
+    let timeLeft = {};
+
+    if (difference > 0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      };
+    }
+
+    return timeLeft;
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  });
+
+  const timerComponents = [];
+
+  Object.keys(timeLeft).forEach((interval) => {
+    if (!timeLeft[interval]) {
+      return;
+    }
+    timerComponents.push(
+      <span key={interval} className="px-[26px]">
+        <span className="font-bold text-[43px]">
+          {timeLeft[interval]}
+        </span>{" "}
+      </span>
+    );
+  });
+
   return (
     <div className="pt-16 lg:pt-28 pb-10">
       <Container>
+        {/*  shadow part left side  */}
+        <div className='absolute 2xl:w-[440px] 2xl:h-[60px] rounded-[400px] bg-[#1A0408] blur-[110px] 2xl:top-[1100px] 2xl:left-[-15px]' />
+        <div className='absolute 2xl:w-[180px] 2xl:h-[360px] rounded-[400px] bg-[#1A0408] blur-[110px] 2xl:top-[1100px] 2xl:left-[-15px]' />
+        {/*  shadow part right side  */}
+        <div className='absolute 2xl:w-[440px] 2xl:h-[60px] rounded-[400px] bg-[#1A0408] blur-[110px] 2xl:top-[1100px] 2xl:left-[1450px]' />
+        <div className='absolute 2xl:w-[180px] 2xl:h-[360px] rounded-[400px] bg-[#1A0408] blur-[110px] 2xl:top-[1100px] 2xl:left-[1700px]' />
+
         <div className="flex flex-col-reverse lg:flex-row items-center gap-x-10 lg:gap-x-14 xl:gap-x-24 text-center">
           {/* Buy now card */}
-          <div className="md:w-2/3 lg:w-2/5 md:mx-auto lg:mx-0 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]">
+          <div className="md:w-2/3 lg:w-2/5 md:mx-auto lg:mx-0 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]" data-aos="flip-left" data-aos-duration="1000">
             <h3 className="text-[26px] lg:text-[22px] xl:text-[25px] 2xl:text-[28px] font-semibold capitalize mb-5">Buy now before price rise</h3>
+
+            {/* Manual Timer */}
             <div className="flex justify-between bg-[#BB0F31] rounded-[20px] px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1">
               <div className="font-semibold">
                 <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Days</p>
@@ -37,6 +88,20 @@ const StakeTokens = () => {
                 <p className="text-[43px]">02</p>
               </div>
             </div>
+
+            {/* Dynamic Timer */}
+            {/* <div className="bg-[#BB0F31] rounded-[20px]">
+              <div className="flex justify-between font-semibold px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1">
+                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Days</p>
+                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Hours</p>
+                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Minutes</p>
+                <p className="text-[17px] md:text-[21px] lg:text-[18px] xl:text-[20px] 2xl:text-[23px] -mb-2">Second</p>
+              </div>
+
+              <h2>
+                {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+              </h2>
+            </div> */}
 
             <p className="text-[17px] 2xl:text-[19px] tracking-[1px] my-4">USDT RAISED: $520,320.46 / $543,440</p>
             <Progress value={90} />
@@ -113,10 +178,12 @@ const StakeTokens = () => {
 
           {/* Stake tokens */}
           <div className="lg:w-auto text-start font-redRose font-semibold">
-            <h1 className="text-[#BB0F31] text-[30px] md:text-[38px] lg:text-[30px] xl:text-[40px] 2xl:text-[46px] uppercase">Stake $Dogecoin Tokens</h1>
-            <p className="text-[#eec4cc] text-[22px] tracking-[3px]">Earn APY & The Earth</p>
+            <h1 className="text-[#BB0F31] text-[30px] md:text-[38px] lg:text-[30px] xl:text-[40px] 2xl:text-[46px] uppercase" data-aos="fade-up" data-aos-duration="800">Stake $Dogecoin Tokens</h1>
+            <p className="text-[#eec4cc] text-[22px] tracking-[3px]" data-aos="fade-up" data-aos-duration="1000">Earn APY & The Earth</p>
 
             <img src={dogeImg} alt="Image" className="lg:w-[420px] 2xl:w-[450px] mx-auto my-10 lg:mt-0" />
+            {/* shadow part  */}
+            <div className='w-[300px] h-[300px] rounded-[400px] bg-[#BB0F31] blur-[230px] mt-[-300px]' />
           </div>
         </div>
       </Container>
