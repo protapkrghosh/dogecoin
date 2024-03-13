@@ -43,10 +43,10 @@ const GettingStarted = () => {
 
           {/* icon card 2 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-265px] 2xl:ml-[525px] xl:mt-[-370px] xl:ml-[450px]'>
+            <div className='absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-370px] xl:ml-[450px]'>
               <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>2</p>
             </div>
-            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-195px] 2xl:ml-[560px] xl:mt-[-370px] xl:ml-[490px]'>
+            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-370px] xl:ml-[490px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>After downloading, you can configure your wallet according to our</p>
               <div className='text-center'>
