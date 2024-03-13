@@ -80,7 +80,7 @@ const GettingStarted = () => {
 
 
 
-        <div className='mt-[150px] mb-[150px]'>
+        <div className='mt-[250px] mb-[150px]'>
           <div className='grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 content-center gap-32 relative'>
             <img src={imgIcon1} alt="" />
             <img src={imgIcon2} alt="" />
