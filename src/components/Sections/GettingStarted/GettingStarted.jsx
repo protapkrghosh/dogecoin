@@ -85,7 +85,7 @@ const GettingStarted = () => {
             <img src={imgIcon4} alt="Image" className='mx-auto' />
 
             {/* Black dot */}
-            <img className='lg:w-[29px] md:absolute 2xl:w-[42px] xl:w-[31px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[77px] xl:mt-[105px] lg:ml-[73px] lg:mt-[100px] md:ml-[107px] md:mt-[147px] ml-[107px] mt-[-1845px]' src={imgIcon11} alt="Image" />
+            <img className='lg:w-[29px] md:absolute 2xl:w-[42px] xl:w-[31px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[77px] xl:mt-[105px] lg:ml-[73px] lg:mt-[100px] md:ml-[150px] md:mt-[147px] ml-[177px] mt-[-1845px]' src={imgIcon11} alt="Image" />
           </div>
         </div>
       </Container>
