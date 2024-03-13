@@ -25,7 +25,7 @@ const GettingStarted = () => {
           {/* icon card 1 */}
           <div className='relative'>
             <div className='absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-38px] xl:ml-[-30px] lg:mt-[-37px] lg:ml-[-35px]'>
-              <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>1</p>
+              <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] font-bold font-poppins textBorderColor text-transparent'>1</p>
             </div>
             <div className='2xl:w-[23%] xl:w-[28%] lg:w-[30%] absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[30px] xl:ml-[-15px] lg:mt-[30px] lg:ml-[-25px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
@@ -41,7 +41,7 @@ const GettingStarted = () => {
           {/* icon card 2 */}
           <div className='relative'>
             <div className='absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-222px] xl:ml-[410px] lg:mt-[-190px] lg:ml-[270px]'>
-              <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>2</p>
+              <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] font-bold font-poppins textBorderColor text-transparent'>2</p>
             </div>
             <div className='2xl:w-[23%] xl:w-[25%] lg:w-[30%] absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-155px] xl:ml-[460px] lg:mt-[-120px] lg:ml-[335px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
@@ -57,7 +57,7 @@ const GettingStarted = () => {
           {/*  icon card 3 */}
           <div className='relative'>
             <div className='absolute 2xl:mt-[-405px] 2xl:ml-[1050px] xl:mt-[-335px] xl:ml-[820px] lg:mt-[-270px] lg:ml-[615px]'>
-              <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>3</p>
+              <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] font-bold font-poppins textBorderColor text-transparent'>3</p>
             </div>
             <div className='2xl:w-[20%] xl:w-[25%] lg:w-[30%] absolute 2xl:mt-[-335px] 2xl:ml-[1100px] xl:mt-[-265px] xl:ml-[865px] lg:mt-[-205px] lg:ml-[658px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
