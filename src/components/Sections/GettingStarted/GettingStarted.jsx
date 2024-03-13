@@ -41,7 +41,7 @@ const GettingStarted = () => {
             </div>
 
             {/* icon card 2 */}
-            <div className='lg:relative flex lg:flex-none md:justify-center lg:justify-normal mt-20 lg:mt-0'>
+            <div className='lg:relative flex lg:flex-none md:justify-center lg:justify-normal mt-20 md:mt-0'>
               <div className='lg:absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-222px] xl:ml-[410px] lg:mt-[-190px] lg:ml-[270px]'>
                 <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent -mt-14 lg:mt-0 -mr-16 lg:mr-0'>2</p>
               </div>
@@ -77,15 +77,15 @@ const GettingStarted = () => {
         </div>
 
         {/*  section part 2  */}
-        <div className='mt-[450px] mb-[150px]'>
-          <div className='grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 content-center md:gap-y-20 lg:gap-16 xl:gap-32 lg:relative'>
-            <img src={imgIcon1} alt="Image" />
-            <img src={imgIcon2} alt="Image" />
-            <img src={imgIcon3} alt="Image" />
-            <img src={imgIcon4} alt="Image" />
+        <div className='mt-[100px] md:mt-[150px] lg:mt-[450px] md:mb-[150px]'>
+          <div className='grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 content-center gap-y-20 lg:gap-16 xl:gap-32 lg:relative'>
+            <img src={imgIcon1} alt="Image" className='mx-auto' />
+            <img src={imgIcon2} alt="Image" className='mx-auto' />
+            <img src={imgIcon3} alt="Image" className='mx-auto' />
+            <img src={imgIcon4} alt="Image" className='mx-auto' />
 
             {/* Black dot */}
-            <img className='lg:w-[29px] md:absolute 2xl:w-[42px] xl:w-[31px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[77px] xl:mt-[105px] lg:ml-[73px] lg:mt-[100px] md:ml-[107px] md:mt-[147px] ml-[107px] mt-[-2037px]' src={imgIcon11} alt="Image" />
+            <img className='lg:w-[29px] md:absolute 2xl:w-[42px] xl:w-[31px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[77px] xl:mt-[105px] lg:ml-[73px] lg:mt-[100px] md:ml-[107px] md:mt-[147px] ml-[107px] mt-[-1845px]' src={imgIcon11} alt="Image" />
           </div>
         </div>
       </Container>

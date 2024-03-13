@@ -9,7 +9,7 @@ import { IoIosArrowRoundDown } from "react-icons/io";
 
 const Banner = () => {
   return (
-    <div style={{ backgroundImage: `url(${networkBg})` }} className='bg-no-repeat bg-cover -mt-[112px] overflow-hidden pb-20 lg:pb-32 xl:pb-52'>
+    <div style={{ backgroundImage: `url(${networkBg})` }} className='bg-no-repeat bg-cover md:-mt-[132px] lg:-mt-[112px] overflow-hidden pb-20 lg:pb-32 xl:pb-52'>
       <div className='bg-no-repeat bg-contain bg-bottom mt-28 md:mt-36 lg:mt-32 xl:mt-24 2xl:mt-40'>
         <Container>
           <div className='relative'>
