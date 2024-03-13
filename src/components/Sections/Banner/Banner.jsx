@@ -9,19 +9,22 @@ import { IoIosArrowRoundDown } from "react-icons/io";
 
 const Banner = () => {
   return (
-    <div style={{ backgroundImage: `url(${networkBg})` }} className='bg-no-repeat -mt-[112px] h-[120vh] overflow-hidden'>
-      <div style={{ backgroundImage: `url(${dogBg})` }} className='bg-no-repeat bg-contain bg-bottom mt-24 '>
+    <div style={{ backgroundImage: `url(${networkBg})` }} className='bg-no-repeat bg-cover -mt-[112px] overflow-hidden pb-52'>
+      <div className='bg-no-repeat bg-contain bg-bottom mt-24 2xl:mt-40'>
         <Container>
-          <div className=''>
-            <img src={textImg} alt="Image" className='w-[850px] 2xl:w-[920px] pt-[50px] pb-[80px] mx-auto' />
+          <div className='relative'>
+            <img src={dogBg} alt="Image" className='w-[750px] mx-auto' />
+            <div className='flex justify-center'>
+              <img src={textImg} alt="Image" className='w-[850px] 2xl:w-[900px] pt-[50px] pb-[80px] mx-auto absolute -top-8' />
+            </div>
 
             {/* Card */}
-            <div className='flex justify-between items-start'>
+            <div className='flex justify-between items-start -mt-96 2xl:px-24 2xl:mr-10'>
               {/* Such core */}
               <div>
                 <div className='p-[1px] bg-gradient-to-b from-[#9c7177d0] form-40% to-[#6d262a1e] to-60%'>
                   <div className='bg-gradient-to-r from-[#641c27] to-[#641c27]'>
-                    <p className='text-center text-white font-redRose py-5 px-10'>Such Core Wallet 1.14.6 <br /> released! Much upgrade, plz!</p>
+                    <p className='text-center 2xl:text-[18px] text-white font-redRose py-5 px-10'>Such Core Wallet 1.14.6 <br /> released! Much upgrade, plz!</p>
                   </div>
                 </div>
 
