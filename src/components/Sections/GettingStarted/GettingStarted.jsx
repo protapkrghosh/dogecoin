@@ -23,52 +23,54 @@ const GettingStarted = () => {
           </div>
 
           {/* icon card 1 */}
-          <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-norma'>
-            <div className='lg:absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-38px] xl:ml-[-30px] lg:mt-[-37px] lg:ml-[-35px]'>
-              <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>1</p>
-            </div>
+          <div className='md:grid lg:grid-cols-none grid-cols-2 gap-x-10 mt-16 lg:mt-0'>
+            <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-normal'>
+              <div className='lg:absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-38px] xl:ml-[-30px] lg:mt-[-37px] lg:ml-[-35px]'>
+                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>1</p>
+              </div>
 
-            <div className='2xl:w-[23%] xl:w-[28%] lg:w-[30%] md:w-[46%] lg:absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[30px] xl:ml-[-15px] lg:mt-[30px] lg:ml-[-25px]'>
-              <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
-              <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
-              <div className='text-center'>
-                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
-                  Learn More
-                </button>
+              <div className='2xl:w-[23%] xl:w-[28%] lg:w-[30%] lg:absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[30px] xl:ml-[-15px] lg:mt-[30px] lg:ml-[-25px]'>
+                <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
+                <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
+                <div className='text-center'>
+                  <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
+                    Learn More
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* icon card 2 */}
-          <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-norma'>
-            <div className='lg:absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-222px] xl:ml-[410px] lg:mt-[-190px] lg:ml-[270px]'>
-              <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>2</p>
-            </div>
+            {/* icon card 2 */}
+            <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-normal'>
+              <div className='lg:absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-222px] xl:ml-[410px] lg:mt-[-190px] lg:ml-[270px]'>
+                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>2</p>
+              </div>
 
-            <div className='2xl:w-[23%] xl:w-[25%] lg:w-[30%] md:w-[44%] lg:absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-155px] xl:ml-[460px] lg:mt-[-120px] lg:ml-[335px]'>
-              <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
-              <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>After downloading, you can configure your wallet according to our</p>
-              <div className='text-center'>
-                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
-                  Guide
-                </button>
+              <div className='2xl:w-[23%] xl:w-[25%] lg:w-[30%] lg:absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-155px] xl:ml-[460px] lg:mt-[-120px] lg:ml-[335px]'>
+                <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
+                <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>After downloading, you can configure your wallet according to our</p>
+                <div className='text-center'>
+                  <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
+                    Guide
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/*  icon card 3 */}
-          <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-normal'>
-            <div className='lg:absolute 2xl:mt-[-405px] 2xl:ml-[1050px] xl:mt-[-335px] xl:ml-[820px] lg:mt-[-270px] lg:ml-[615px]'>
-              <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>3</p>
-            </div>
+            {/*  icon card 3 */}
+            <div className='lg:relative md:flex lg:flex-none md:justify-center lg:justify-normal  mt-20 lg:mt-0'>
+              <div className='lg:absolute 2xl:mt-[-405px] 2xl:ml-[1050px] xl:mt-[-335px] xl:ml-[820px] lg:mt-[-270px] lg:ml-[615px]'>
+                <p className='2xl:text-[204px] xl:text-[204px] lg:text-[190px] text-[170px] font-bold font-poppins textBorderColor text-transparent md:-mt-14 lg:mt-0 md:-mr-16 lg:mr-0'>3</p>
+              </div>
 
-            <div className='2xl:w-[20%] xl:w-[25%] lg:w-[30%] md:w-[44%] lg:absolute 2xl:mt-[-335px] 2xl:ml-[1100px] xl:mt-[-265px] xl:ml-[865px] lg:mt-[-205px] lg:ml-[658px]'>
-              <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
-              <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>There’s lots of ways to get your hands on some Dogecoin.</p>
-              <div className='text-center'>
-                <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
-                  Learn More
-                </button>
+              <div className='2xl:w-[20%] xl:w-[25%] lg:w-[30%] lg:absolute 2xl:mt-[-335px] 2xl:ml-[1100px] xl:mt-[-265px] xl:ml-[865px] lg:mt-[-205px] lg:ml-[658px]'>
+                <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
+                <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>There’s lots of ways to get your hands on some Dogecoin.</p>
+                <div className='text-center'>
+                  <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
+                    Learn More
+                  </button>
+                </div>
               </div>
             </div>
           </div>
