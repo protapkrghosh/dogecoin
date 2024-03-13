@@ -27,10 +27,10 @@ const GettingStarted = () => {
 
           {/* icon card 1 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-485px] xl:ml-[895px]'>
+            <div className='absolute 2xl:mt-[-30px] 2xl:ml-[-20px] xl:mt-[-38px] xl:ml-[-55px]'>
               <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>1</p>
             </div>
-            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[-485px] xl:ml-[925px]'>
+            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[30px] xl:ml-[-15px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
               <div className='text-center'>
@@ -43,10 +43,10 @@ const GettingStarted = () => {
 
           {/* icon card 2 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-370px] xl:ml-[450px]'>
+            <div className='absolute 2xl:mt-[-265px] 2xl:ml-[535px] xl:mt-[-222px] xl:ml-[410px]'>
               <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>2</p>
             </div>
-            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-370px] xl:ml-[490px]'>
+            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-195px] 2xl:ml-[575px] xl:mt-[-155px] xl:ml-[460px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>After downloading, you can configure your wallet according to our</p>
               <div className='text-center'>
