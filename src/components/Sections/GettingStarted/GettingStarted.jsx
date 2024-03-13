@@ -5,6 +5,11 @@ import getIcon from '@/assets/getting_started/Group 61.png'
 import getIcon1 from '@/assets/getting_started/1.png'
 import getIcon2 from '@/assets/getting_started/2.png'
 import getIcon3 from '@/assets/getting_started/3.png'
+import imgIcon1 from '@/assets/getting_started/o-letter-img (1) 2.png'
+import imgIcon2 from '@/assets/getting_started/o-letter-img (1) 1.png'
+import imgIcon3 from '@/assets/getting_started/g-letter-img 1.png'
+import imgIcon4 from '@/assets/getting_started/e-letter-img 1.png'
+import imgIcon11 from '@/assets/getting_started/Vector 2.png'
 
 const GettingStarted = () => {
   return (
@@ -65,6 +70,25 @@ const GettingStarted = () => {
             </div>
           </div>
         </div>
+
+
+
+        {/* section part 2  */}
+
+
+
+        <div className='mt-[150px] mb-[150px]'>
+          <div className='grid grid-cols-4 content-center gap-32 relative'>
+            <img src={imgIcon1} alt="" />
+            <img src={imgIcon2} alt="" />
+            <img src={imgIcon3} alt="" />
+            <img src={imgIcon4} alt="" />
+            <img className='absolute ml-[105px] mt-[142px]' src={imgIcon11} alt="" />
+          </div>
+        </div>
+
+
+
       </Container>
     </>
   );
