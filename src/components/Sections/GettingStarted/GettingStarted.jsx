@@ -51,10 +51,10 @@ const GettingStarted = () => {
           </div>
           {/* icon card  */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-520px] 2xl:ml-[1050px] xl:mt-[-480px] xl:ml-[900px]'>
+            <div className='absolute 2xl:mt-[-520px] 2xl:ml-[1050px] xl:mt-[-485px] xl:ml-[895px]'>
               <img src={getIcon3} alt="" />
             </div>
-            <div className='w-[20%] absolute 2xl:mt-[-520px] 2xl:ml-[1100px] xl:mt-[-480px] xl:ml-[900px]'>
+            <div className='2xl:w-[20%] xl:w-[25%] absolute 2xl:mt-[-520px] 2xl:ml-[1100px] xl:mt-[-485px] xl:ml-[925px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>There’s lots of ways to get your hands on some Dogecoin.</p>
               <div className='text-center'>
