@@ -73,7 +73,7 @@ const GettingStarted = () => {
 
 
 
-        {/* section part 2  */}
+        {/*  section part 2  */}
 
 
 
