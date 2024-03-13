@@ -93,17 +93,17 @@ const StakeTokens = () => {
               <div className="relative">
                 <Input type="text" placeholder="0" className="text-[18px] py-[23px] rounded-[30px] bg-[#BB0F31] placeholder:text-white border-none focus-visible:ring-0 focus-visible:ring-offset-0 px-4" />
 
-                <img src={icon5} alt="Image" className="w-[21px] 2xl:w-[28px] absolute top-[7px] right-4" />
+                <img src={icon5} alt="Image" className="w-[21px] absolute top-[7px] right-4" />
               </div>
             </div>
 
             {/* Button */}
             <div className="flex justify-between gap-x-6 mt-7 mb-8">
-              <Button className="text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] 2xl:px-5 py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px] w-1/2">Connect Wallet</Button>
+              <Button className="text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px] w-1/2">Connect Wallet</Button>
 
               <div className="relative w-1/2">
-                <img src={icon4} alt="Image" className="w-[25px] absolute top-[12px] left-2 cursor-pointer" />
-                <Button className="text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] pl-10 2xl:px-5 py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px]">Buy with BNB</Button>
+                <img src={icon4} alt="Image" className="w-[25px] absolute xl:top-[12px] 2xl:top-[14px] left-2 2xl:left-3 cursor-pointer" />
+                <Button className="text-[15px] 2xl:text-[20px] font-semibold rounded-[30px] bg-[#6b2231] hover:bg-[#80283a] border border-[#BB0F31] pl-10 2xl:pl-10 py-6 2xl:py-7 tracking-[2px] 2xl:tracking-[3px]">Buy with BNB</Button>
               </div>
             </div>
 
