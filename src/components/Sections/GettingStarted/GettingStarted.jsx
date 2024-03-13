@@ -24,7 +24,7 @@ const GettingStarted = () => {
             <div>
               <img src={getIcon1} alt="" />
             </div>
-            <div className='w-[23%] absolute 2xl:mt-[-150px] 2xl:ml-[15px] xl:mt-[-160px]'>
+            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-150px] 2xl:ml-[15px] xl:mt-[-160px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
               <div className='text-center'>
@@ -39,7 +39,7 @@ const GettingStarted = () => {
             <div className='absolute 2xl:mt-[-380px] 2xl:ml-[525px] xl:mt-[-370px] xl:ml-[450px]'>
               <img src={getIcon2} alt="" />
             </div>
-            <div className='w-[23%] absolute 2xl:mt-[-380px] 2xl:ml-[560px] xl:mt-[-370px] xl:ml-[500px]'>
+            <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-380px] 2xl:ml-[560px] xl:mt-[-370px] xl:ml-[490px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
               <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>After downloading, you can configure your wallet according to our</p>
               <div className='text-center'>
