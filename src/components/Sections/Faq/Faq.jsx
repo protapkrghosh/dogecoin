@@ -30,7 +30,8 @@ const Faq = () => {
 
                 <p className="text-white text-[30px] md:text-[38px] lg:text-[30px] xl:text-[38px] 2xl:text-[42px] font-semibold">How To's</p>
                 <img src={line} alt="Image" className="my-5 2xl:my-6" />
-
+                {/* shadow part  */}
+                <div className='w-[300px] h-[300px] rounded-[400px] bg-[#BB0F31] blur-[200px] mt-[-300px]' />
                 <p className="text-white text-[30px] md:text-[38px] lg:text-[30px] xl:text-[38px] 2xl:text-[42px] font-semibold">Documentation</p>
                 <img src={line} alt="Image" className="mt-5 2xl:mt-6" />
               </div>

@@ -175,6 +175,8 @@ const StakeTokens = () => {
             <p className="text-[#eec4cc] text-[22px] tracking-[3px]">Earn APY & The Earth</p>
 
             <img src={dogeImg} alt="Image" className="lg:w-[420px] 2xl:w-[450px] mx-auto my-10 lg:mt-0" />
+            {/* shadow part  */}
+            <div className='w-[300px] h-[300px] rounded-[400px] bg-[#BB0F31] blur-[230px] mt-[-300px]' />
           </div>
         </div>
       </Container>

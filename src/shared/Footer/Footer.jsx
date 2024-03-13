@@ -8,6 +8,8 @@ const Footer = () => {
   return (
     <div className='mt-10'>
       <Container>
+        {/* shadow part  */}
+        <div className='w-[300px] h-[300px] rounded-[400px] bg-[#BB0F31] blur-[200px] mt-[-300px]' />
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-7 md:gap-0'>
           {/* Dogecoin  */}
           <div className=''>
@@ -41,6 +43,8 @@ const Footer = () => {
 
           {/* Foundation */}
           <div className='flex justify-start md:justify-center lg:justify-end md:mt-10 lg:mt-0'>
+            {/* shadow part  */}
+            <div className='w-[300px] h-[300px] rounded-[400px] bg-[#BB0F31] blur-[200px] mt-[-400px]' />
             <div>
               <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Foundation</p>
               <div className='flex flex-col w-[30%]'>
