@@ -83,7 +83,7 @@ const GettingStarted = () => {
             <img src={imgIcon2} alt="" />
             <img src={imgIcon3} alt="" />
             <img src={imgIcon4} alt="" />
-            <img className='absolute ml-[105px] mt-[142px]' src={imgIcon11} alt="" />
+            <img className='absolute 2xl:w-[42px] xl:w-[34px] 2xl:ml-[105px] 2xl:mt-[142px] xl:ml-[86px] xl:mt-[118px]' src={imgIcon11} alt="" />
           </div>
         </div>
 
