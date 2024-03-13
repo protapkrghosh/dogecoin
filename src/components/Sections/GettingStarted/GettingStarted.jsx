@@ -41,10 +41,10 @@ const GettingStarted = () => {
             </div>
           </div>
 
-          {/* icon card  */}
+          {/* icon card 2 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-380px] 2xl:ml-[525px] xl:mt-[-370px] xl:ml-[450px]'>
-              <img src={getIcon2} alt="" />
+            <div className='absolute 2xl:mt-[-445px] 2xl:ml-[525px] xl:mt-[-370px] xl:ml-[450px]'>
+              <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>2</p>
             </div>
             <div className='2xl:w-[23%] xl:w-[25%] absolute 2xl:mt-[-380px] 2xl:ml-[560px] xl:mt-[-370px] xl:ml-[490px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
@@ -57,10 +57,10 @@ const GettingStarted = () => {
             </div>
           </div>
 
-          {/*  icon card  */}
+          {/*  icon card 3 */}
           <div className='relative'>
-            <div className='absolute 2xl:mt-[-520px] 2xl:ml-[1050px] xl:mt-[-485px] xl:ml-[895px]'>
-
+            <div className='absolute 2xl:mt-[-590px] 2xl:ml-[1050px] xl:mt-[-485px] xl:ml-[895px]'>
+              <p className='text-[204px] font-bold font-poppins textBorderColor text-transparent'>3</p>
             </div>
             <div className='2xl:w-[20%] xl:w-[25%] absolute 2xl:mt-[-520px] 2xl:ml-[1100px] xl:mt-[-485px] xl:ml-[925px]'>
               <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
