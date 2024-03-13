@@ -8,6 +8,11 @@
 body {
   background-color: #3b0d10;
 }
+
+.textBorderColor {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #BB0F31;
+}
  
 @layer base {
   :root {
