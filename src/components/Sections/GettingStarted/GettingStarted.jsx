@@ -18,7 +18,7 @@ const GettingStarted = () => {
             <img className='absolute 2xl:ml-[400px] xl:ml-80 lg:ml-40 md:ml-16 ml-12' src={getImg} alt="" />
           </div>
           {/* getIcon  */}
-          <div>
+          <div className='hidden lg:block'>
             <img src={getIcon} alt="" />
           </div>
 
