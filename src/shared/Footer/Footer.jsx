@@ -43,9 +43,8 @@ const Footer = () => {
 
           {/* Foundation */}
           <div className='flex relative justify-start md:justify-center lg:justify-end md:mt-10 lg:mt-0'>
-            {/* shadow part  */}
-            <div className='w-[300px] h-[300px] rounded-[400px] bg-[#551318] shadowFooter top-[-30px] absolute' />
-            <div>
+
+            <div className='z-40'>
               <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Foundation</p>
               <div className='flex flex-col w-[30%]'>
                 <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>About</Link>
@@ -55,6 +54,8 @@ const Footer = () => {
                 <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Trailmap</Link>
               </div>
             </div>
+            {/* shadow part  */}
+            <div className='w-[300px] h-[300px] rounded-[400px] bg-[#551318] shadowFooter top-[-30px] absolute' />
           </div>
         </div>
       </Container>
