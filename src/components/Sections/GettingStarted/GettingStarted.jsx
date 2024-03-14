@@ -31,7 +31,7 @@ const GettingStarted = () => {
 
               <div className='2xl:w-[23%] xl:w-[28%] lg:w-[30%] lg:absolute 2xl:mt-[35px] 2xl:ml-[-1px] xl:mt-[30px] xl:ml-[-15px] lg:mt-[30px] lg:ml-[-25px]'>
                 <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Choose your wallet</p>
-                <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet</p>
+                <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>A wallet is necessary for people wanting to use, trade, or hold Doge hot. You can pick a wallet</p>
 
                 <div className='text-center' data-aos="fade-up" data-aos-duration="1000">
                   <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
@@ -66,8 +66,8 @@ const GettingStarted = () => {
               </div>
 
               <div className='2xl:w-[20%] xl:w-[25%] lg:w-[30%] lg:absolute 2xl:mt-[-335px] 2xl:ml-[1100px] xl:mt-[-265px] xl:ml-[865px] lg:mt-[-205px] lg:ml-[658px]'>
-                <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some dogecoin</p>
-                <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>There’s lots of ways to get your hands on some Dogecoin.</p>
+                <p className='text-[#FFF] text-center font-redRose text-[24px] tracking-[2.16px] mb-[15px]'>Get some Doge hot</p>
+                <p className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] mb-[30px]'>There’s lots of ways to get your hands on some Doge hot.</p>
 
                 <div className='text-center' data-aos="fade-up" data-aos-duration="1000">
                   <button className='text-[#CCC2C2] text-center font-redRose text-[18px] tracking-[1.62px] border px-[30px] py-[15px] rounded border-[#BB0F31] hover:bg-[#BB0F31] duration-300'>
