@@ -131,12 +131,12 @@ const StakeTokens = () => {
 
               <div className="flex items-center gap-3 2xl:gap-5 bg-[#BB0F31] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
                 <img src={icon2} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
-                <p className="text-[17px] lg:text-[15px] xl:text-[18px] text-start uppercase mr-5 md:mr-0">ETH</p>
+                <p className="text-[17px] lg:text-[15px] xl:text-[18px] text-start uppercase mr-5 md:mr-0">USDT</p>
               </div>
 
               <div className="flex items-center gap-3 2xl:gap-5 bg-[#BB0F31] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
                 <img src={icon3} alt="Image" className="w-[22px] md:w-[28px] lg:w-[21px] xl:w-[22px] 2xl:w-[28px]" />
-                <p className="text-[17px] lg:text-[15px] xl:text-[18px] text-start uppercase mr-5 md:mr-0">ETH</p>
+                <p className="text-[17px] lg:text-[15px] xl:text-[18px] text-start uppercase mr-5 md:mr-0">CARD</p>
               </div>
             </div>
 
