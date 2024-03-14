@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <Banner />
       <SocialMedia />
-      <StakeTokens />
+      {/* <StakeTokens /> */}
       <WhatIsDogecoin />
       <GettingStarted />
       <DoOnlyGood />

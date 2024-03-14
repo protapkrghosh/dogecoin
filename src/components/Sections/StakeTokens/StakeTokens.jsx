@@ -67,7 +67,7 @@ const StakeTokens = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center gap-x-10 lg:gap-x-14 xl:gap-x-24 text-center">
           {/* Buy now card */}
           <div className="md:w-2/3 lg:w-2/5 md:mx-auto lg:mx-0 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]" data-aos="flip-left" data-aos-duration="1000">
-            <h3 className="text-[26px] lg:text-[22px] xl:text-[25px] 2xl:text-[28px] font-semibold capitalize mb-5">Buy now before price rise</h3>
+            <h3 className="text-[26px] lg:text-[22px] xl:text-[25px] 2xl:text-[28px] font-semibold capitalize mb-5 tracking-[2.52px]">Buy now before price rise</h3>
 
             {/* Manual Timer */}
             <div className="flex justify-between bg-[#BB0F31] rounded-[20px] px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1">
@@ -131,12 +131,12 @@ const StakeTokens = () => {
 
               <div className="flex items-center gap-3 2xl:gap-5 bg-[#BB0F31] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
                 <img src={icon2} alt="Image" className="w-[22px] md:w-[31px] lg:w-[23px] xl:w-[25px] 2xl:w-[31px]" />
-                <p className="text-[17px] lg:text-[15px] xl:text-[18px] text-start uppercase mr-5 md:mr-0">ETH</p>
+                <p className="text-[17px] lg:text-[15px] xl:text-[18px] text-start uppercase mr-5 md:mr-0">USDT</p>
               </div>
 
               <div className="flex items-center gap-3 2xl:gap-5 bg-[#BB0F31] w-fit px-4 lg:px-2 xl:px-4 py-[10px] rounded-[30px]">
                 <img src={icon3} alt="Image" className="w-[22px] md:w-[28px] lg:w-[21px] xl:w-[22px] 2xl:w-[28px]" />
-                <p className="text-[17px] lg:text-[15px] xl:text-[18px] text-start uppercase mr-5 md:mr-0">ETH</p>
+                <p className="text-[17px] lg:text-[15px] xl:text-[18px] text-start uppercase mr-5 md:mr-0">CARD</p>
               </div>
             </div>
 
@@ -173,7 +173,7 @@ const StakeTokens = () => {
               </div>
             </div>
 
-            <p>Widget powered by Web3 Payments</p>
+            <p className="tracking-[1.44px]">Widget powered by Web3 Payments</p>
           </div>
 
           {/* Stake tokens */}
