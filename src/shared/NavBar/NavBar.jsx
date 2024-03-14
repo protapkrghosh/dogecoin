@@ -1,9 +1,19 @@
-import logo from "@/assets/banner/dogecoin-logo 1.png"
+import logo from "@/assets/banner/Frame 904.png"
 import language from "@/assets/banner/language.png"
+import globe from "@/assets/banner/language1.png"
 import { Button } from "@/components/ui/button";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -43,7 +53,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="/" className="text-[#CCC2C2] hover:text-[#BB0F31] font-redRose font-normal duration-300">What is Dogecoin?</Link>
+                <Link to="/" className="text-[#CCC2C2] hover:text-[#BB0F31] font-redRose font-normal duration-300">What is Doge hot?</Link>
               </li>
 
               <li>
@@ -58,10 +68,48 @@ const NavBar = () => {
                 <Link to="/" className="text-[#CCC2C2] hover:text-[#BB0F31] font-redRose font-normal duration-300">So Dogepedia</Link>
               </li>
 
-              <img src={language} alt="Image" className="w-[90px] 2xl:w-[100px] block md:hidden" />
+              <div className="block md:hidden">
+                <div className="flex items-center">
+                  <img src={globe} alt="Image" className="w-[35px] 2xl:w-[100px] -mr-3" />
+
+                  <Select>
+                    <SelectTrigger className="w-[80px]">
+                      <SelectValue placeholder="ENG" className="" />
+                    </SelectTrigger>
+
+                    <SelectContent>
+                      <SelectGroup>
+                        <SelectItem value="eng" className="uppercase">Eng</SelectItem>
+                        <SelectItem value="apa" className="uppercase">Spa</SelectItem>
+                        <SelectItem value="fre" className="uppercase">Fre</SelectItem>
+                        <SelectItem value="ger" className="uppercase">Ger</SelectItem>
+                      </SelectGroup>
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
             </ul>
 
-            <img src={language} alt="Image" className="w-[90px] 2xl:w-[100px] md:block hidden" />
+            <div className="md:block hidden">
+              <div className="flex items-center">
+                <img src={globe} alt="Image" className="w-[35px] 2xl:w-[40px] -mr-3" />
+
+                <Select>
+                  <SelectTrigger className="w-[80px]">
+                    <SelectValue placeholder="ENG" className="" />
+                  </SelectTrigger>
+
+                  <SelectContent>
+                    <SelectGroup>
+                      <SelectItem value="eng" className="uppercase">Eng</SelectItem>
+                      <SelectItem value="apa" className="uppercase">Spa</SelectItem>
+                      <SelectItem value="fre" className="uppercase">Fre</SelectItem>
+                      <SelectItem value="ger" className="uppercase">Ger</SelectItem>
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
+              </div>
+            </div>
           </div>
         </div>
       </div>

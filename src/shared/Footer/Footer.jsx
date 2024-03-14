@@ -1,5 +1,5 @@
 import Container from '@/components/Sections/Container/Container';
-import footerLogo from '@/assets/banner/dogecoin-logo 1.png'
+import footerLogo from '@/assets/banner/Frame 904.png'
 import footerLine from '@/assets/footer/Line 11.png'
 import React from 'react';
 import { Link } from 'react-router-dom';
