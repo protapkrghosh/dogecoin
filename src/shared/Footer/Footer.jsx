@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
 
           {/* Announcements  */}
-          <div className='flex justify-start md:justify-center lg:justify-end md:ml-14 lg:ml-0'>
+          <div className='flex justify-start md:justify-center lg:justify-end md:ml-14 lg:ml-0 lg:-mr-5 xl:-mr-9  2xl:-mr-14'>
             <div>
               <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold mb-[15px]'>Announcements</p>
               <div className='flex flex-col w-fit'>
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
 
           {/* Sitemap  */}
-          <div className='flex lg:justify-end md:mt-10 lg:mt-0'>
+          <div className='flex lg:justify-end md:mt-10 lg:mt-0 lg:-mr-5 xl:-mr-8 2xl:-mr-10'>
             <div>
               <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold mb-[15px]'>Sitemap</p>
               <div className='flex flex-col'>
