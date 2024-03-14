@@ -67,7 +67,7 @@ const StakeTokens = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center gap-x-10 lg:gap-x-14 xl:gap-x-24 text-center">
           {/* Buy now card */}
           <div className="md:w-2/3 lg:w-2/5 md:mx-auto lg:mx-0 text-white font-redRose bg-[#6F3232] border border-[#BB0F31] rounded-[28px] px-[30px] 2xl:px-[40px] py-[20px]" data-aos="flip-left" data-aos-duration="1000">
-            <h3 className="text-[26px] lg:text-[22px] xl:text-[25px] 2xl:text-[28px] font-semibold capitalize mb-5">Buy now before price rise</h3>
+            <h3 className="text-[26px] lg:text-[22px] xl:text-[25px] 2xl:text-[28px] font-semibold capitalize mb-5 tracking-[2.52px]">Buy now before price rise</h3>
 
             {/* Manual Timer */}
             <div className="flex justify-between bg-[#BB0F31] rounded-[20px] px-5 md:px-[25px] lg:px-3 xl:px-[25px] 2xl:px-[30px] pt-[12px] pb-1">
