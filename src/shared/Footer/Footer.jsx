@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Announcements  */}
           <div className='flex justify-start md:justify-center lg:justify-end md:ml-14 lg:ml-0'>
             <div>
-              <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Announcements</p>
+              <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold mb-[15px]'>Announcements</p>
               <div className='flex flex-col w-fit'>
                 <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline'>Trademarks</Link>
               </div>
@@ -30,13 +30,13 @@ const Footer = () => {
           {/* Sitemap  */}
           <div className='flex lg:justify-end md:mt-10 lg:mt-0'>
             <div>
-              <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Sitemap</p>
+              <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold mb-[15px]'>Sitemap</p>
               <div className='flex flex-col'>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit'>So Home</Link>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit'>What is Dogecoin?</Link>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit'>Much Wallets</Link>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit'>Very Community</Link>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit'>So Dogepedia</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit mb-[15px]'>So Home</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit mb-[15px]'>What is Dogecoin?</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit mb-[15px]'>Much Wallets</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit mb-[15px]'>Very Community</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 w-fit mb-[15px]'>So Dogepedia</Link>
               </div>
             </div>
           </div>
@@ -45,13 +45,13 @@ const Footer = () => {
           <div className='flex relative justify-start md:justify-center lg:justify-end md:mt-10 lg:mt-0'>
 
             <div className='z-40'>
-              <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold'>Foundation</p>
+              <p className='text-[#FFF] font-redRose text-[24px] tracking-[0.72px] font-bold mb-[15px]'>Foundation</p>
               <div className='flex flex-col w-[30%]'>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>About</Link>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Manifesto</Link>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Advisors</Link>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Blog</Link>
-                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7'>Trailmap</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 mb-[15px]'>About</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 mb-[15px]'>Manifesto</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 mb-[15px]'>Advisors</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 mb-[15px]'>Blog</Link>
+                <Link className='text-[#CCC2C2] text-[16px] font-redRose tracking-[0.8px] hover:underline leading-7 mb-[15px]'>Trailmap</Link>
               </div>
             </div>
             {/* shadow part  */}
