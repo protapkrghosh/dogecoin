@@ -39,7 +39,7 @@ const FindOutMore = () => {
             </div>
           </div>
 
-          {/* Foundation card */}
+          {/*  Foundation card  */}
           <div className='md:w-[50%] lg:w-[34.8%] bg-[#BB0F31] rounded-[5px] mt-8 md:mt-0'>
             <div style={{ backgroundImage: `url(${cardBg2})` }} className='bg-no-repeat bg-right-bottom'>
               <div className='p-10'>
