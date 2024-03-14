@@ -173,7 +173,7 @@ const StakeTokens = () => {
               </div>
             </div>
 
-            <p>Widget powered by Web3 Payments</p>
+            <p className="tracking-[1.44px]">Widget powered by Web3 Payments</p>
           </div>
 
           {/* Stake tokens */}
