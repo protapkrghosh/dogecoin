@@ -21,7 +21,7 @@ const FindOutMore = () => {
             <div style={{ backgroundImage: `url(${cardBg1})` }} className='bg-no-repeat bg-right-bottom rounded-[5px]'>
               <div className='p-10 relative'>
                 <p className='text-[#FFF] text-[22px] font-redRose font-bold tracking-[3.3px] mb-3'>About Us</p>
-                <p className='text-[#FFF] text-[45px] md:text-[40px] lg:text-[45px] xl:text-[53px] font-redRose font-bold leading-[52px] md:leading-[40px] lg:leading-[60px]'>Find out more about <br /> Dogecoin</p>
+                <p className='text-[#FFF] text-[45px] md:text-[40px] lg:text-[45px] xl:text-[53px] font-redRose font-bold leading-[52px] md:leading-[40px] lg:leading-[60px]'>Find out more about <br /> Doge hot</p>
 
                 <img src={icon5} alt="Image" className='xl:w-[140px] 2xl:w-[175px] absolute left-72 hidden lg:block' data-aos="fade-up" data-aos-duration="1000" />
 

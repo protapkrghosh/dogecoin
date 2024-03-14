@@ -1,7 +1,7 @@
 import Container from '../Container/Container';
 import networkBg from '@/assets/banner/Rectangle1.png'
 import dogBg from '@/assets/banner/doge1.png'
-import textImg from '@/assets/banner/Frame 106.png'
+import textImg from '@/assets/banner/Frame1106.png'
 import icon from '@/assets/banner/Vector.png'
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
